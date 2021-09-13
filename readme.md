@@ -12,7 +12,7 @@ Para compilar los clientes "Arranca y conecta", necesitas disponer de lo siguien
 
 * Windows 7 o posterior de 64 bits. Es necesario un sistema de 64 bits para obtener los archivos del cliente compatibles con esta arquitectura.
 * TeamTalk para Windows, versión 5.8.1 o posterior. Es muy importante que instales el cliente clásico. Puedes obtener el instalador desde su [página de descargas](https://bearware.dk/?page_id=353).
-* TeamTalk clásico de 32 bits, edición portable, versión 5.8.1 o posterior. Es fácil llegar a él modificando ligeramente la URL de descarga del instalador. Por ejemplo, la versión 5.6.3 se puede descargar desde [aquí](http://bearware.dk/teamtalk/v5.6.3/TeamTalkClassic_v5.6.3_Portable.zip).
+* TeamTalk de 32 bits, edición portable, versión 5.8.1 o posterior. Disponible también en la página de descargas anterior.
 * NSIS, versión 3.06.1 o posterior. Puedes obtenerlo desde su [página oficial](https://nsis.sourceforge.io/Main_Page).
 
 ## Instrucciones de compilación
@@ -64,9 +64,8 @@ El propósito principal de estos 4 ajustes es eliminar tantas distracciones como
 
 Los siguientes archivos se consideran innecesarios, y pueden eliminarse antes de compilar los scripts para reducir ligeramente el tamaño del resultado final:
 
-* Carpeta `JAWS script`.
-* Carpeta `NVDA plugin`.
-* Carpeta `Window eyes plugin`.
+* Carpeta `languages`
+* Archivos `teamTalk5.exe` y `teamTalk5.ini.default`
 * `TeamTalk5Classic.xml.default`.
 * Archivos `unins000.dat` y `unins000.exe`.
 * (sólo si existen) Archivos `tt5svc*` y `tt5srv*`. Aquí se incluyen los .exe, .bat y .xml.
